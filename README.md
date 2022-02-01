@@ -37,7 +37,7 @@ Now you just have to run the application.
 ```bash
 $ yarn start # or npm start
 ```
-After that, you can use the api by the <b>http://localhost:3000/products</b> url. You can use methods like POST, GET, PATCH and DELETE.
+After that, you can use the api by the <i>http://localhost:3000/products</i> url. You can use methods like POST, GET, PATCH and DELETE.
 
 <hr/>
 
