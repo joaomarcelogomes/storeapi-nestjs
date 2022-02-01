@@ -1,73 +1,52 @@
-<p align="center">
-  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
+<h2 align="center"> <img src="https://seeklogo.com/images/N/nestjs-logo-09342F76C0-seeklogo.com.png" width="20px"/> Nestjs API REST <img src="https://seeklogo.com/images/N/nestjs-logo-09342F76C0-seeklogo.com.png" width="20px" style="transform: scaleX(-1)"/>  </h2> 
+<p align="center"> This is a Rest API that i developed while studying the Nestjs Framework</p>
+<hr/>
+<p>  During my studies, I always try to practice everything that i'm learning, so i did the usual with this project. After hours of reading the documentation, watching videos and reading articles, I developed this restful API, with the teacher from the FullCycle channel on Youtube, for a kind of ecommerce, where you can CRUD products. It is simple, but its already shown me how easy and fast is to develop things with this powerful Framework. I'm very excited to use Nest more and more.
 </p>
 
-[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
+<hr/>
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<h3>Technologies</h3>
+<ul>
+<li><a href="https://nestjs.com/"> Nestjs </a></li>
+<li><a href="https://typeorm.io/#/"> TypeORM </a></li>
+<li><a href="https://www.typescriptlang.org/"> Typescript </a></li>
+<li><a href="https://www.postgresql.org/"> PostgreSQL </a></li>
+<li><a href="https://yarnpkg.com/"> Yarn </a></li>
+<li><a href="https://nodejs.org/en/"> Nodejs </a></li>
+</ul>
 
-## Description
+<hr/>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+<h3>João, how do i test your API?</h3>
 
-## Installation
+First, you'll need to have installed Node, Yarn or NPM and Postgresql. After checking that, clone this repository
 
 ```bash
-$ npm install
+$ git clone https://github.com/joaomarcelogomes/storeapi-nestjs.git
 ```
-
-## Running the app
-
+Go to the project folder
 ```bash
-# development
-$ npm run start
-
-# watch mode
-$ npm run start:dev
-
-# production mode
-$ npm run start:prod
+$ cd storeapi-nestjs
 ```
-
-## Test
-
+Execute the package instalation
 ```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+$ yarn install #or npm i
 ```
+Now you just have to run the application.
+```bash
+$ yarn start # or npm start
+```
+After that, you can use the api by the <b>http://localhost:3.000/products</b> url. You can use methods like POST, GET, PATCH and DELETE.
 
-## Support
+<hr/>
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+<h3> Author </h3>
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+<h4> João Marcelo Gomes </h4> 
+Thanks for paying attention to my work! Contact me: 
+<br/>
+<br/>
+<a href="https://twitter.com/joaomgomes_"> <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/> </a>
+<a href="https://linkedin.com/in/joaomarcelosgomes"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/> </a>
+<a href="joaomarcelosgomes@gmail.com"> <img src="https://img.shields.io/badge/joaomarcelosgomes@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/> </a>
